@@ -1,0 +1,44 @@
+[
+	{
+		"key": 1,
+		"name": "Outpatient department (OPD)",
+		"img": "https://i.ibb.co/RCjN7JX/1.webp",
+		"price": "260",
+		"description": "Most hospitals now have an OPD. The advantage of OPD is that much of the investigative unit and curative work can be done there without admitting the client, thus curtailing medical expenses."
+	},
+	{
+		"key": 2,
+		"name": "Medical Department",
+		"img": "https://i.ibb.co/VDNnncq/2.jpg",
+		"price": "400",
+		"description": "The medical department has within it the various clinical services. They are: medicine, surgery, gynaecology, obstetrics, paediatrics, eye, ENT, dental, orthopaedics, neurology, cardiology, psychiatry, skin, V.D., plastic surgery, nuclear medicine, infectious disease etc."
+	},
+	{
+		"key": 3,
+		"name": "Nursing Department",
+		"img": "https://i.ibb.co/DWb3SFC/3.jpg",
+		"price": "235",
+		"description": "The nursing department is the organizational structure through which nurses provide nursing care for clients under the jurisdiction of the institution. The nursing department consists of nursing service and nursing education."
+	},
+	{
+		"key": 4,
+		"name": "Paramedical Department",
+		"img": "https://i.ibb.co/xgV52sC/4.jpg",
+		"price": "200",
+		"description": "Paramedical departments are adjunctive to the practice of medicine in the maintenance or restoration of health and normal functioning.Laboratory services (LAB) must be available day and night. Must be located on the ground floor and should be easily accessible to the outpatients."
+    },
+	{
+		"key": 5,
+		"name": "Pharmacy Department",
+		"img": "https://i.ibb.co/G5x0N1t/5.jpg",
+		"price": "150",
+		"description": "Pharmacy is a crucial factor in medical factor. It should be planned and organized well. The pharmacy department has the responsibility for selecting purchasing, compounding, storing and dispensing all drugs and medications."
+	},
+	{
+		"key": 6,
+		"name": "Radiology Department (X-ray)",
+		"img": "https://i.ibb.co/PMV5BBf/6.jpg",
+		"price": "300",
+		"description": "The department must be located in a place where there is easy accessibility for OP and IP clients.Sufficient number of staff should be available. Staff must be protected against radiation hazards. This department has the following services."
+	}
+]

@@ -1,23 +1,54 @@
-import logo from './logo.svg';
+import Home from './components/Home/Home/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Error from './components/Error/Error';
+import Header from './components/Shared/Header/Header';
+import Footer from './components/Shared/Footer/Footer';
+import ServiceDetail from './components/ServiceDetail/ServiceDetail';
+import TestingLabs from './components/TestingLabs/Catagories';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Login from './components/Login/Login';
+import AuthProvider from './components/Context/AuthProvider';
+import Appointment from './components/Appointment/Appointment';
+import Doctors from './components/Doctors/Doctors';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <AuthProvider>
+        <Router>
+          <Header></Header>
+          <Switch>
+          <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <PrivateRoute path="/appointment">
+              <Appointment></Appointment>
+            </PrivateRoute>
+            <PrivateRoute path="/doctors">
+              <Doctors></Doctors>
+            </PrivateRoute>
+            <PrivateRoute path="/testinglabs">
+              <TestingLabs></TestingLabs>
+            </PrivateRoute>
+            <PrivateRoute path="/detail/:id">
+              <ServiceDetail></ServiceDetail>
+            </PrivateRoute>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <Route path="*">
+              <Error></Error>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }

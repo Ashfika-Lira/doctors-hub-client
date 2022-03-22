@@ -1,0 +1,96 @@
+.feature1 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/LabMachines.jpg/1200px-LabMachines.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 265px !important;
+  text-align: center;
+}
+.feature2 {
+  background-image: url(https://i1.wp.com/hospitalnews.com/wp-content/uploads/2020/08/Lab.jpg?fit=640%2C427&ssl=1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  margin: 10px 13px;
+  text-align: center;
+}
+.feature3 {
+  background-image: url(https://www.gannett-cdn.com/presto/2020/03/06/PPHX/18caf3b1-f792-4012-a570-f503bd38c77d-20200305_124459.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 265px !important;
+  text-align: center;
+}
+.feature4 {
+  background-image: url(https://dam.abbott.com/en-us/homepage/coronavirus/M2000-Story-960x430.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 265px !important;
+  text-align: center;
+}
+.feature5 {
+  background-image: url(https://www.aruplab.com/files/images/covid-hospitalllabs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  margin: 10px 13px;
+  text-align: center;
+}
+.feature6 {
+  background-image: url(https://www.kidney.org/sites/default/files/drawingblood_1200x630.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 265px !important;
+  text-align: center;
+}
+.feature7 {
+  background-image: url(https://lmg-labmanager.s3.amazonaws.com/assets/articleNo/26622/iImg/48962/lctl-104web.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 265px !important;
+  text-align: center;
+}
+.feature8 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsRHDM1ZYY2yCPi4uTZp2cRT3UItsZiHkEAg&usqp=CAU);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  margin: 10px 13px;
+  text-align: center;
+}
+.feature9 {
+  background-image: url(https://bsmedia.business-standard.com/_media/bs/img/article/2018-02/03/full/1517678873-2298.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 265px !important;
+  text-align: center;
+}
+
+.feature1 button,
+.feature2 button,
+.feature3 button,
+.feature4 button,
+.feature5 button,
+.feature6 button,
+.feature7 button,
+.feature8 button,
+.feature9 button {
+  margin-top: 190px;
+  border-radius: 10px;
+  background-color: white;
+  color: #eb0f5d;
+}
